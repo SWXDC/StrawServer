@@ -9,8 +9,8 @@ navbar.innerHTML = `
     <nav class="navbar">
         <button class="sidebar-toggle"></button>
         <div class="Logo">
-            <a href="/"><img src="/img/server-icon.png" alt="Server Logo" /> </a>
-            <span><a href="/">吸管伺服器</a></span>
+            <a href="/StrawServer/"><img src="/StrawServer/img/server-icon.png" alt="Server Logo" /> </a>
+            <span><a href="/StrawServer/">吸管伺服器</a></span>
         </div>
         <div class="navbar-right">
             <a class="${currentPage === 'index.html' | currentPage === '' ? 'CurrentPage' : ''}" href="/StrawServer/">首頁</a>
