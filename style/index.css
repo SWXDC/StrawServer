@@ -1,0 +1,71 @@
+/* 區塊調整 */
+
+/* Block1 */
+.block1-bg{
+    background-image: url(/img/image-855x471.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 100px;
+    text-align: center;  
+    color: white;
+    h1 {
+        font-size: 4.5rem;
+    }
+    p {
+        font-size: 1.8rem;
+    }
+}
+/* Block2 */
+.block2{
+    height: 365px;
+    width: 100%;
+}
+/* 連結 */
+.Button-block{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 13px 20px;
+        border-radius: 100px;
+    }
+}
+.discord-btn{
+    background-color: #6592e6;
+}
+.copyIP-btn{
+    background-color: #FFC300;
+}
+
+/* 大小適應 */
+@media (max-width: 700px){
+    .block1-bg{
+        align-items: stretch;
+    }
+    .block1 {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px 10px;
+        margin-top: 70px;
+    }
+}
+@media (max-width: 480px) {
+    .Button-block{
+        display: block;
+    }    
+    .copyIP-btn-div{
+        margin-top: 50px;
+    }
+}
