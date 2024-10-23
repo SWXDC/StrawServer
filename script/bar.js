@@ -13,9 +13,9 @@ navbar.innerHTML = `
             <span><a href="/">吸管伺服器</a></span>
         </div>
         <div class="navbar-right">
-            <a class="${currentPage === 'index.html' | currentPage === '' ? 'CurrentPage' : ''}" href="/">首頁</a>
-            <a class="${currentPage === 'rules.html' ? 'CurrentPage' : ''}" href="/rules.html">規定</a>
-            <a class="${currentPage === 'sponsor.html' ? 'CurrentPage' : ''}" href="/sponsor.html">贊助</a>
+            <a class="${currentPage === 'index.html' | currentPage === '' ? 'CurrentPage' : ''}" href="/StrawServer/">首頁</a>
+            <a class="${currentPage === 'rules.html' ? 'CurrentPage' : ''}" href="/StrawServer/rules.html">規定</a>
+            <a class="${currentPage === 'sponsor.html' ? 'CurrentPage' : ''}" href="/StrawServer/sponsor.html">贊助</a>
             <a href="https://tutorial.strawserver.com/">教學</a>
         </div>
     </nav>
@@ -23,9 +23,9 @@ navbar.innerHTML = `
 
 sidebar.innerHTML = `
         <aside class="sidebar">
-            <a class="${currentPage === 'index.html' | currentPage === '' ? 'CurrentPage' : ''}" href="/">首頁</a>
-            <a class="${currentPage === 'rules.html' ? 'CurrentPage' : ''}" href="/rules.html">規定</a>
-            <a class="${currentPage === 'sponsor.html' ? 'CurrentPage' : ''}" href="/sponsor.html">贊助</a>
+            <a class="${currentPage === 'index.html' | currentPage === '' ? 'CurrentPage' : ''}" href="/StrawServer/">首頁</a>
+            <a class="${currentPage === 'rules.html' ? 'CurrentPage' : ''}" href="/StrawServer/rules.html">規定</a>
+            <a class="${currentPage === 'sponsor.html' ? 'CurrentPage' : ''}" href="/StrawServer/sponsor.html">贊助</a>
             <a href="https://tutorial.strawserver.com/">教學</a>
         </aside>
 `;
