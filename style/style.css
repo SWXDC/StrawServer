@@ -101,6 +101,12 @@ body{
     height: 100%;
     background: #76C7C0;
 }
+/* 尾頁 */
+.end{
+    height: 80px;
+    width: 100%;
+    background: #1B1B1F;
+}
 @media (max-width: 700px){
     html{
         font-size: 14px;
